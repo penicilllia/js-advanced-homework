@@ -20,11 +20,7 @@ const objArray = [
 ];
 
 function uniqueizeObjArray(array) {
-    let uniqArray = [];
-    let uniqIds = new Set(array.map(obj => obj.id));
-    uniqIds.forEach(element => uniqArray.push(array.find(obj => obj.id === element)));
-
-    return uniqArray;
+    return [...new Set(array.map(obj1 => array.find(obj2 => obj2.id === obj1.id)))];
 }
 
 console.log(uniqueizeObjArray(objArray));
