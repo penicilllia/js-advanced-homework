@@ -1,0 +1,31 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Comfortaa', cursive;
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(217deg, rgba(255, 0, 0, .8), rgba(255, 0, 0, 0) 70.71%),
+            linear-gradient(127deg, rgba(0, 255, 0, .8), rgba(0, 255, 0, 0) 70.71%),
+            linear-gradient(336deg, rgba(0, 0, 255, .8), rgba(0, 0, 255, 0) 70.71%);
+}
+
+h1 {
+    margin: 140px 0 100px;
+    text-align: center;
+    font-size: 45px;
+}
+
+.timer {
+    display: flex;
+    justify-content: center;
+    font-size: 32px;
+    gap: 18px;
+    margin-bottom: 250px;
+}
+
+.gif-images {
+    display: flex;
+    justify-content: space-around;
+}
