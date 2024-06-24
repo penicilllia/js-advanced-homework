@@ -21,7 +21,7 @@ class HourBilling extends Billing {
         if (this.hours < 0) {
             return;
         }
-        return this.amount * this.hours;
+        return super.calculateTotal() * this.hours;
     }
 }
 
@@ -34,7 +34,7 @@ class ItemBilling extends Billing {
         if (this.elementsCount < 0) {
             return;
         }
-        return this.amount * this.elementsCount;
+        return super.calculateTotal() * this.elementsCount;
     }
 }
 
