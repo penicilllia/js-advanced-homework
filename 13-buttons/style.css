@@ -1,0 +1,38 @@
+.buttons {
+    margin-top: 100px;
+    margin-bottom: 70px;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+button {
+    font-size: 20px;
+    background-color: #faafaf;
+    color: #291414;
+    border-radius: 5px;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #e8aaf9;
+}
+
+.taps {
+    margin: 0 auto;
+    background-color: #e7cafc;
+    color: #291414;
+    width: 240px;
+    height: 30px;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 25px;
+    padding: 8px;
+}
+
+.tapped {
+    background-color: #aab0f9;
+}
+
