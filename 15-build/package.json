@@ -1,0 +1,20 @@
+{
+  "name": "user-task",
+  "version": "1.0.0",
+  "description": "Simple example of JS ES6 modules",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rollup app.js --file bundle.js --format iife",
+    "start": "live-server"
+  },
+  "keywords": [
+    "module"
+  ],
+  "author": "Sytina Alexandra",
+  "license": "ISC",
+  "dependencies": {
+    "liveserver": "^0.1.20",
+    "rollup": "^4.18.0"
+  }
+}
